@@ -1,0 +1,25 @@
+html,body {
+height:100%;	
+}
+
+body{
+	/*background:lightgray;*/
+	background:linear-gradient(#D2F7DD,#4BD251,#23820D);
+
+}
+.caja{
+background:white;
+border-radius: 30%;
+box-shadow: 0.5em 0.5em 0.5em rgba(0,0,0,0.5);
+height:400px;
+margin:0 auto;
+width: 40%;
+transition:all linear 3s;
+
+}
+
+.caja:hover{
+	cursor:pointer;
+	border-radius:0;
+	background:gold;
+}
